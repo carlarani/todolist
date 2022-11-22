@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2rem;
+}
+header, main, h2{
+    margin-top: 2rem;
+}
+
+h1{
+    width: fit-content;
+    margin: auto;
+}
+
+#add-new-task{
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: unset;
+}
+
+#tasks-list{
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: unset;
+}
+
+
+table{
+    grid-auto-rows: auto;
+}
+
+tr{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.vs-hidden{
+    visibility: hidden;
+}
+
+.delay{
+    visibility:visible;
+}
+
+.finished{
+    font-weight: bold;
+}
+
+
+
+
+
